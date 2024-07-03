@@ -102,6 +102,10 @@
             <Form>mainForm</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="OpenFileUnit.pas">
+            <Form>openFileForm</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
