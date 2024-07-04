@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions/>
+  <Transactions>
+    <Transaction>2024/07/04 10:57:24.387,C:\Users\abdul\Projects\Mejedenu\ProjectGroup1.groupproj=C:\Users\abdul\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
   <Default.Personality>
     <Projects ActiveProject="C:\Users\abdul\Projects\Mejedenu\mejedenu.dproj"/>
   </Default.Personality>

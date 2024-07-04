@@ -6,9 +6,6 @@
         <Projects Include="mejedenu.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="TRK\mejedenu_TRK.bdsproj">
-            <Dependencies/>
-        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -26,23 +23,14 @@
     <Target Name="mejedenu:Make">
         <MSBuild Projects="mejedenu.dproj" Targets="Make"/>
     </Target>
-    <Target Name="mejedenu_TRK">
-        <MSBuild Projects="TRK\mejedenu_TRK.bdsproj"/>
-    </Target>
-    <Target Name="mejedenu_TRK:Clean">
-        <MSBuild Projects="TRK\mejedenu_TRK.bdsproj" Targets="Clean"/>
-    </Target>
-    <Target Name="mejedenu_TRK:Make">
-        <MSBuild Projects="TRK\mejedenu_TRK.bdsproj" Targets="Make"/>
-    </Target>
     <Target Name="Build">
-        <CallTarget Targets="mejedenu;mejedenu_TRK"/>
+        <CallTarget Targets="mejedenu"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="mejedenu:Clean;mejedenu_TRK:Clean"/>
+        <CallTarget Targets="mejedenu:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="mejedenu:Make;mejedenu_TRK:Make"/>
+        <CallTarget Targets="mejedenu:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

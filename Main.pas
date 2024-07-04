@@ -81,12 +81,10 @@ procedure showTextFile;
 var
   myFile          : TextFile;
   line, fullPath  : string;
-  lineCount       : integer;
   theFile         : TTextFile;
 begin
   if currentFileIndex = -1 then Exit;
 
-  lineCount := 0;
   theFile := files.Items[currentFileIndex];
   fullPath := mainPath + theFile.filename;
 
@@ -102,8 +100,7 @@ begin
     begin
       Readln(myFile, line);
 
-      mainForm.textBox.Lines[lineCount] := line;
-      inc(lineCount);
+      mainForm.textBox.Lines.Add(line);
     end;
 
     mainForm.textFileName.Caption := theFile.getName;

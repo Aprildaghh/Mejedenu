@@ -3,8 +3,8 @@ object mainForm: TmainForm
   Top = 0
   BorderStyle = bsToolWindow
   Caption = 'Mejedenu'
-  ClientHeight = 501
-  ClientWidth = 1045
+  ClientHeight = 497
+  ClientWidth = 1043
   Color = clWindow
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

@@ -131,9 +131,6 @@
                     <Language Name="ProjectLang">$00000809</Language>
                     <Language Name="ActiveLang">TRK</Language>
                 </Language>
-                <Resource_DLL_Projects>
-                    <Resource_DLL_Projects Name="Item0">Turkish (Türkiye)*$0000041F*TRK*TRK</Resource_DLL_Projects>
-                </Resource_DLL_Projects>
                 <RDP_Source_Files>
                     <RDP_Source_Files Name="Item0">Main.dfm</RDP_Source_Files>
                     <RDP_Source_Files Name="Item1">OpenFileUnit.dfm</RDP_Source_Files>
