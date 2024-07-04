@@ -11,7 +11,7 @@ object openFileForm: TopenFileForm
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
-  OnCreate = FormCreate
+  OnActivate = FormActivate
   TextHeight = 15
   object listBox: TListBox
     Left = 16

@@ -2,11 +2,11 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2024/07/03 13:41:45.000.796,=C:\Users\abdul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/07/03 13:43:01.000.569,C:\Users\abdul\Projects\Mejedenu\Main.dfm=C:\Users\abdul\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2024/07/03 13:43:01.000.569,C:\Users\abdul\Projects\Mejedenu\Main.pas=C:\Users\abdul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/07/03 13:43:10.000.300,C:\Users\abdul\Projects\Mejedenu\mejedenu.dproj=C:\Users\abdul\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/07/03 13:43:01.000.569,C:\Users\abdul\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\abdul\Projects\Mejedenu\Main.pas</Transaction>
+    <Transaction>2024/07/03 13:43:01.000.569,C:\Users\abdul\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\abdul\Projects\Mejedenu\Main.dfm</Transaction>
+    <Transaction>2024/07/03 13:43:10.000.300,C:\Users\abdul\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\abdul\Projects\Mejedenu\mejedenu.dproj</Transaction>
     <Transaction>2024/07/03 15:14:35.000.694,=C:\Users\abdul\Projects\Mejedenu\Unit1.pas</Transaction>
-    <Transaction>2024/07/03 15:14:54.000.103,C:\Users\abdul\Projects\Mejedenu\OpenFileUnit.dfm=C:\Users\abdul\Projects\Mejedenu\Unit1.dfm</Transaction>
-    <Transaction>2024/07/03 15:14:54.000.103,C:\Users\abdul\Projects\Mejedenu\OpenFileUnit.pas=C:\Users\abdul\Projects\Mejedenu\Unit1.pas</Transaction>
+    <Transaction>2024/07/03 15:14:54.000.103,C:\Users\abdul\Projects\Mejedenu\Unit1.dfm=C:\Users\abdul\Projects\Mejedenu\OpenFileUnit.dfm</Transaction>
+    <Transaction>2024/07/03 15:14:54.000.103,C:\Users\abdul\Projects\Mejedenu\Unit1.pas=C:\Users\abdul\Projects\Mejedenu\OpenFileUnit.pas</Transaction>
   </Transactions>
 </BorlandProject>

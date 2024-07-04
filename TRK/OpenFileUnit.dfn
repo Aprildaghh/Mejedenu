@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\Users\abdul\Projects\Mejedenu\OpenFileUnit.dfm" source-language="en-GB" target-language="tr-TR" datatype="delphiform" tool="ETM v10.0" ts="C:\Users\abdul\Projects\Mejedenu\OpenFileUnit.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">45477.453125</prop>
+        <prop prop-type="OrigDateTime">45477.3974074074</prop>
+        <prop prop-type="XlatDateTime">45477.3974074074</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">27</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:openFileForm.Left" resname="O:openFileForm.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.Top" resname="O:openFileForm.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.BorderStyle" resname="O:openFileForm.BorderStyle">
+        <source>bsSizeToolWin</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.Caption" resname="O:openFileForm.Caption">
+        <source>'Choose your Pokemon ?!'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.ClientHeight" resname="O:openFileForm.ClientHeight">
+        <source>344</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.ClientWidth" resname="O:openFileForm.ClientWidth">
+        <source>245</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.Color" resname="O:openFileForm.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.Font.Charset" resname="O:openFileForm.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.Font.Color" resname="O:openFileForm.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.Font.Height" resname="O:openFileForm.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.Font.Name" resname="O:openFileForm.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.Font.Style" resname="O:openFileForm.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.OnActivate" resname="O:openFileForm.OnActivate">
+        <source>FormActivate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.TextHeight" resname="O:openFileForm.TextHeight">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TopenFileForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.O:listBox.Left" resname="O:openFileForm.O:listBox.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.O:listBox.Top" resname="O:openFileForm.O:listBox.Top">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.O:listBox.Width" resname="O:openFileForm.O:listBox.Width">
+        <source>209</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.O:listBox.Height" resname="O:openFileForm.O:listBox.Height">
+        <source>257</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.O:listBox.ItemHeight" resname="O:openFileForm.O:listBox.ItemHeight">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.O:listBox.TabOrder" resname="O:openFileForm.O:listBox.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.O:btn.Left" resname="O:openFileForm.O:btn.Left">
+        <source>150</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.O:btn.Top" resname="O:openFileForm.O:btn.Top">
+        <source>296</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.O:btn.Width" resname="O:openFileForm.O:btn.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.O:btn.Height" resname="O:openFileForm.O:btn.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.O:btn.Caption" resname="O:openFileForm.O:btn.Caption">
+        <source>'Choose'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.O:btn.TabOrder" resname="O:openFileForm.O:btn.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:openFileForm.O:btn.OnClick" resname="O:openFileForm.O:btn.OnClick">
+        <source>btnClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45477.4531478241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

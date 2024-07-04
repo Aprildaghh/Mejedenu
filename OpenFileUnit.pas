@@ -10,7 +10,7 @@ type
   TopenFileForm = class(TForm)
     listBox: TListBox;
     btn: TButton;
-    procedure FormCreate(Sender: TObject);
+    procedure FormActivate(Sender: TObject);
     procedure btnClick(Sender: TObject);
   private
     { Private declarations }
@@ -60,7 +60,7 @@ begin
 end;
 
 
-procedure TopenFileForm.FormCreate(Sender: TObject);
+procedure TopenFileForm.FormActivate(Sender: TObject);
 var
   i: Integer;
 begin
@@ -68,7 +68,7 @@ begin
   listBox.Clear;
   for i := 0 to files.Count - 1 do
   begin
-    listBox.AddItem(getFilenameWithoutTxtPart(files.Items[i]), nil);
+    listBox.AddItem(getFilenameWithoutTxtPart(files.Items[i].filename), nil);
   end;
 
 end;
