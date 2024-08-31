@@ -20,6 +20,7 @@ object openFileForm: TopenFileForm
     Height = 257
     ItemHeight = 15
     TabOrder = 0
+    OnKeyDown = listBoxKeyDown
   end
   object btn: TButton
     Left = 150

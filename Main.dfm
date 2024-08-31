@@ -32,8 +32,10 @@ object mainForm: TmainForm
     Font.Name = 'Segoe UI'
     Font.Style = []
     ParentFont = False
+    PlainText = True
     ScrollBars = ssBoth
     TabOrder = 0
+    WantTabs = True
     WordWrap = False
     OnKeyDown = textBoxKeyDown
   end

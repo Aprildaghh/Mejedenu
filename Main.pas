@@ -161,6 +161,10 @@ var
   i           : Integer;
   filenames   : TArray<string>;
 begin
+  // disable sounds
+  
+
+
 
   files := TList<TTextFile>.Create;
   currentFileIndex := -1;
@@ -262,14 +266,24 @@ procedure TmainForm.textBoxKeyDown(Sender: TObject; var Key: Word;
 var
   tFile: TTextFile;
 begin
-  
-  if (Key = vkS) and (Shift = [ssCtrl]) then
+
+  if Shift = [ssAlt] then
   begin
-    saveFile;
+    if Key = vkS then
+      saveBtnClick(self)
+    else if Key = vkN then
+      newBtnClick(self)
+    else if Key = vkD then
+      deleteBtnClick(self)
+    else if Key = vkO then
+      openBtnClick(self)
+    else if Key = vkRight then
+      rightBtnClick(self)
+    else if Key = vkLeft then
+      leftBtnClick(self);
     Exit;
   end;
 
-  if (Shift = [ssCtrl]) then Exit;
 
   tFile := files.Items[currentFileIndex];
   tFile.isSaved := False;

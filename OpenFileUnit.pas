@@ -12,6 +12,8 @@ type
     btn: TButton;
     procedure FormActivate(Sender: TObject);
     procedure btnClick(Sender: TObject);
+    procedure listBoxKeyDown(Sender: TObject; var Key: Word;
+      Shift: TShiftState);
   private
     { Private declarations }
   public
@@ -27,7 +29,7 @@ implementation
 {$R *.dfm}
 
 uses
-  Main;
+  Main, System.UITypes, FMX.Types;
 
 procedure TopenFileForm.btnClick(Sender: TObject);
 var
@@ -71,6 +73,13 @@ begin
     listBox.AddItem(getFilenameWithoutTxtPart(files.Items[i].filename), nil);
   end;
 
+end;
+
+procedure TopenFileForm.listBoxKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if Key = vkReturn then
+    btnClick(self);
 end;
 
 end.
